@@ -15,4 +15,4 @@ for (let i = 0; i < 3; i++) {
 }
 element.appendChild(ul);
 
-li.style.textAlign = 'center';
+ul.style.textAlign = 'left';
