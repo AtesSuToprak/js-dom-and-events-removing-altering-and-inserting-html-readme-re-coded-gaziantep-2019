@@ -18,4 +18,4 @@ element.appendChild(ul);
 ul.style.textAlign = 'left';
 // removing elements from the DOM ;
 
-ul.remove(ul.querySelector('li:nth-child(2)'));
+ul.removeChild(ul.querySelector('li:nth-child(2)'));
