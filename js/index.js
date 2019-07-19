@@ -16,3 +16,6 @@ for (let i = 0; i < 3; i++) {
 element.appendChild(ul);
 
 ul.style.textAlign = 'left';
+// removing elements from the DOM ;
+
+ul.remove(ul.querySelector('li:nth-child(2)'));
