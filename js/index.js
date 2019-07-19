@@ -19,3 +19,7 @@ ul.style.textAlign = 'left';
 // removing elements from the DOM ;
 
 ul.removeChild(ul.querySelector('li:nth-child(2)'));
+
+//removing the whole ul list !;
+
+ul.removeChild();
