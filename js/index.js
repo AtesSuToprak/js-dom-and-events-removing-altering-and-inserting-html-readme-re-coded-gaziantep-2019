@@ -22,4 +22,4 @@ ul.removeChild(ul.querySelector('li:nth-child(2)'));
 
 //removing the whole ul list !;
 
-ul.removeChild();
+ul.remove();
